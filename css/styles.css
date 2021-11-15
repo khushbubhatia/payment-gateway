@@ -320,21 +320,6 @@ body {
     padding-bottom: 2%;
   }
   
-  .social_list {
-    list-style-type: none;
-  }
-  .social_list li a {
-    display: inline;
-    float: right;
-    padding: 50px;
-    color: #a3a3a3;
-    text-decoration: none;
-  }
-  
-  .social_list li a:hover {
-    color: bisque;
-  }
-  
   .copyright_text {
     font-family: "Open Sans", sans-serif;
     font-weight: 400;
