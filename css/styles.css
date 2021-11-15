@@ -28,6 +28,7 @@ body {
   
   .sideimg {
     float: right;
+    margin-top:-500px;
     max-width: 100%;
     width: 450px;
     height: auto;
@@ -142,11 +143,11 @@ body {
     display: none;
   }
   
-  @media (max-width: 700px) {
+  @media (max-width: 858px) {
     .checkbtn {
       display: block;
     }
-    ul {
+    .header ul {
       position: fixed;
       width: 100%;
       height: 20vh;
@@ -154,14 +155,14 @@ body {
       top: 80px;
       left: -100px;
       text-align: center;
-      transition: all 0.5s;
+      transition: all .5s;
       justify-content: space-between;
     }
-    .navbar ul li {
+    .header ul li {
       margin: 50px 0;
       line-height: 30px;
     }
-    .navbar ul li a {
+    .header ul li a {
       font-size: 20px;
       padding: 20px;
     }
@@ -319,6 +320,26 @@ body {
     padding-top: 2%;
     padding-bottom: 2%;
   }
+  .social_list {
+    list-style-type: none;
+  }
+  .social_list li a {
+   
+    padding: 50px;
+    color: #a3a3a3;
+    text-decoration: none;
+    max-width:100%;
+    width:30px;
+    height:12%;
+    position:justify-content;
+    display: grid;
+    float: right;
+
+  }
+  
+  .social_list li a:hover {
+    color: bisque;
+  } 
   
   .copyright_text {
     font-family: "Open Sans", sans-serif;
@@ -332,4 +353,4 @@ body {
     color: #a3a3a3;
     margin-top: 34px;
   }
-  
+ 
